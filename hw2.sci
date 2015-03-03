@@ -2,6 +2,10 @@
 //COMS 4281 Intro to Quantum Computing
 //Homework 2 Programming Part
  
+// C:\Users\Ten-Seng\Documents\Columbia\CS 4281\Source>"C:\Program Files\scilab-5.5
+//.1\bin\Scilex" -f hw2.sci -args 10e-2 "(1.,0) (0.,0) (0.,0) (0.7071, 0.7071)"
+//Scilab 5.5.1 (Oct  1 2014, 17:34:23) 
+ 
     args = sciargs()
     numargs = size(args, 2)
     epsilon = 10e-4
@@ -19,15 +23,15 @@
             u21b = (components(6))
             u22a = (components(7))
             u22b = (components(8))
-            disp(components)
+            //disp(components)
             u11 = complex(strtod(u11a), strtod(u11b))
             u12 = complex(strtod(u12a), strtod(u12b))
             u21 = complex(strtod(u21a), strtod(u21b))
             u22 = complex(strtod(u22a), strtod(u22b))                
-            disp(u11)
-            disp(u12)
-            disp(u21)
-            disp(u22)
+            //disp(u11)
+            //disp(u12)
+            //disp(u21)
+            //disp(u22)
             U = [u11 u12; u21 u22];
             disp("U = ")
             disp(U)
